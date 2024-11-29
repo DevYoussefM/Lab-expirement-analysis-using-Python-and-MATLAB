@@ -13,10 +13,10 @@ This project supports experiments focused on:
 - **Drop-wise condensation**: Involves discrete droplet formation, significantly enhancing heat transfer rates.
 
 The analysis includes:
-1. Heat transfer rate \( Q \).
-2. Heat flux \( q \).
-3. Adjusted surface temperatures \( T_{\text{adjusted}} \).
-4. Heat transfer coefficients \( h \).
+1. Heat transfer rate $Q$.
+2. Heat flux $q$.
+3. Adjusted surface temperatures $T_{\text{adjusted}}$.
+4. Heat transfer coefficients $h$.
 
 ---
 
@@ -29,10 +29,10 @@ $$
 Q = \dot{m} \cdot c_p \cdot (T_{\text{out}} - T_{\text{in}})
 $$
 
-Where:
-- \( \dot{m} \): Mass flow rate (kg/s)  
-- \( c_p \): Specific heat capacity of water (\( 4.18 \, \text{kJ/kg·°C} \))  
-- \( T_{\text{out}}, T_{\text{in}} \): Cooling water outlet and inlet temperatures  
+Where:  
+$ \dot{m} $ is the mass flow rate (kg/s).  
+$ c_p $ is the specific heat capacity of water ($4.18 \, \text{kJ/kg.°C}$).  
+$ T_{\text{out}}, T_{\text{in}} $ are the cooling water outlet and inlet temperatures.  
 
 ---
 
@@ -43,8 +43,8 @@ $$
 q = \frac{Q}{A}
 $$
 
-Where:
-- \( A = \pi \cdot d \cdot L \): Surface area of the condenser (m²)
+Where:  
+$ A = \pi \cdot d \cdot L $ is the surface area of the condenser (m²).  
 
 ---
 
@@ -55,8 +55,8 @@ $$
 T_{\text{adjusted}} = q \cdot \frac{x}{k} + T_{\text{initial}}
 $$
 
-Where:
-- \( \frac{x}{k} \): Thermal conductivity factor (\( 2 \times 10^{-6} \, \text{m·K/W} \))
+Where:  
+$ \frac{x}{k} $ is the thermal conductivity factor ($2 \times 10^{-6} \, \text{m.K/W}$).  
 
 ---
 
@@ -67,21 +67,18 @@ $$
 h = \frac{q}{T_{\text{sat}} - T_{\text{adjusted}}}
 $$
 
-Where:
-- \( T_{\text{sat}} \): Saturation temperature (\( 80^\circ\text{C} \))
+Where:  
+$ T_{\text{sat}} $ is the saturation temperature ($80^\circ\text{C}$).  
 
 ---
 
 ### 5. Data Integrity Check
-The script ensures:
-- All input lists are of equal length.
-- Automatically adjusts mismatched lengths with placeholders to maintain consistent data.
+The script ensures that all input lists are of equal length and automatically adjusts mismatched lengths with placeholders to maintain consistent data.
 
 ---
 
 ### 6. Automated Thermal Analysis
-The script computes:
-- \( Q, q, T_{\text{adjusted}}, h \) for both film-wise and drop-wise condensation modes.
+The script computes $Q$, $q$, $T_{\text{adjusted}}$, and $h$ for both film-wise and drop-wise condensation modes.
 
 ---
 
@@ -91,9 +88,9 @@ Results are saved as an Excel file in the **Downloads folder**, containing all r
 ---
 
 ## Output Example
-The output Excel sheet contains:
-- **Experimental data columns**: \( P_{\text{gage}}, T_1, T_3, T_4, T_6, T_7, \dot{m}_d, \dot{m}_f \)
-- **Computed columns**: \( Q, q, T_{\text{adjusted}}, h \) for both modes of condensation.
+The output Excel sheet contains:  
+**Experimental data columns**: $P_{\text{gage}}, T_1, T_3, T_4, T_6, T_7, \dot{m}_d, \dot{m}_f$.  
+**Computed columns**: $Q, q, T_{\text{adjusted}}, h$ for both modes of condensation.
 
 ---
 
