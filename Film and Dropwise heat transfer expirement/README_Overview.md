@@ -1,4 +1,3 @@
-Here’s the document rewritten in plain text format suitable for a Word document, with math enclosed in `$$` for block math formatting.  
 
 ---
 
