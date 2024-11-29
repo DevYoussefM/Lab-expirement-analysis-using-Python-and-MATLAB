@@ -1,11 +1,14 @@
 
----
-
 # Film and Dropwise Condensation Experiment  
 
 This document describes a Python script that automates the analysis of experimental data for comparing **Film-wise** and **Drop-wise condensation**. The script processes input data, computes critical thermal properties, and exports the results as an Excel file suitable for lab reports.  
 
----
+
+## Objective  
+
+The primary objective of this experiment is to compare the heat transfer coefficient ($h$) of **film-wise condensation** and **drop-wise condensation**. By analyzing the experimental data, the script highlights the differences in thermal performance between the two modes of condensation.  
+
+
 
 ## Overview  
 
@@ -19,7 +22,7 @@ The analysis includes:
 3. Adjusted surface temperatures $T_{\text{adjusted}}$.  
 4. Heat transfer coefficients $h$.  
 
----
+
 
 ## Script Features  
 
