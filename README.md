@@ -4,7 +4,7 @@ Airfoil Analysis
 - Parameters:
   - Angles of Attack (α): 0°, 5°, 10°, 15°, and 20°.
   - Reynolds Numbers (Re): Varying across experiments.
-- Modeling Approach: Smooth spline interpolation for $C_D$ and $C_L$ curves with logical constraints, ensuring $C_D$ = 0 and C_L = 0 at α = 0.
+- Modeling Approach: Smooth spline interpolation for $C_D$ and $C_L$ curves with logical constraints.
 - Applications: Provides training data for AI models, benchmarks for computational fluid dynamics (CFD), and educational resources for aerodynamic studies.
 Sphere Analysis
 - Objective: Analyze the drag coefficient ($C_D$) of smooth and rough spheres across different Reynolds number regimes.
