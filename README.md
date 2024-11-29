@@ -1,12 +1,12 @@
-Repository Summary
-Airfoil Analysis
+**Airfoil Analysis**
 - Objective: Investigate the drag coefficient ($C_D$) and lift coefficient ($C_L$) of an airfoil at varying angles of attack (α) and Reynolds numbers (Re).
 - Parameters:
   - Angles of Attack (α): 0°, 5°, 10°, 15°, and 20°.
   - Reynolds Numbers (Re): Varying across experiments.
 - Modeling Approach: Smooth spline interpolation for $C_D$ and $C_L$ curves with logical constraints.
 - Applications: Provides training data for AI models, benchmarks for computational fluid dynamics (CFD), and educational resources for aerodynamic studies.
-Sphere Analysis
+
+**Sphere Analysis**
 - Objective: Analyze the drag coefficient ($C_D$) of smooth and rough spheres across different Reynolds number regimes.
 - Findings:
   - Smooth Sphere: Laminar flow dominates for Re < 3 × 10^5, transitioning to turbulence at higher Re.
