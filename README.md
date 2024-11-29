@@ -20,7 +20,7 @@ Repository Contents
    - MATLAB: Curve fitting and visualization of $C_D$ and $C_L$ vs. α for airfoils.
    - Python: Data preprocessing and consistency checks.
 3. Plots:
-   - $C_D$ vs. α and C_L vs. α for airfoils at multiple Re.
+   - $C_D$ vs. α and $C_L$ vs. α for airfoils at multiple Re.
    - $C_D$ vs. Re for smooth and rough spheres.
 Applications
 The repository serves as a resource for:
