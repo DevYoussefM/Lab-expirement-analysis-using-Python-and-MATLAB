@@ -12,6 +12,7 @@ This repository contains code implementations for numerical analysis and simulat
   - Equation solvers
   - Interpolation
   - Finite difference techniques
+  - Curve fitting
 - Clean, modular code for easy adaptation to other engineering problems.
 
 ---
