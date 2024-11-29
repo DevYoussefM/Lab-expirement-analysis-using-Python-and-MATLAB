@@ -100,4 +100,3 @@ Feel free to contribute to the project by opening an issue or submitting a pull 
 
 ---  
 
-This structure keeps things clear for a Word document while using `$$` around the mathematical equations for better readability. Let me know if you need further adjustments!
