@@ -17,7 +17,7 @@ Repository Contents
    - Airfoil: Experimental results for varying α and Re, including zeroed-out values at α = 0.
    - Sphere: Drag coefficient data across laminar, transition, and turbulent flow regimes for smooth and rough spheres.
 2. Scripts:
-   - MATLAB: Curve fitting and visualization of $C_D$ and $C_L$ vs. α for airfoils.
+   - MATLAB: Curve fitting and visualization of $C_D$ and $C_L$ vs. α for airfoils (For $C_D$ the plot isn't so accurate as it need more data to plot properly).
    - Python: Data preprocessing and consistency checks.
 3. Plots:
    - $C_D$ vs. α and $C_L$ vs. α for airfoils at multiple Re.
